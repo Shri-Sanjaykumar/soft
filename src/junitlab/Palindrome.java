@@ -1,0 +1,14 @@
+package junitlab;
+
+public class Palindrome {
+
+    public boolean isPalindrome(String str) {
+
+        String rev = new StringBuilder(str).reverse().toString();
+
+        if (str.equals(rev))
+            return true;
+        else
+            return false;
+    }
+}
